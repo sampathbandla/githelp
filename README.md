@@ -7,8 +7,9 @@
 <p align="center">
 	Help your users
 </p>
-<img align="center" height="500px" src="https://sampathbandla.com/wp-content/uploads/2020/09/Screenshot-32.png">
-
+<a href="http://githelp.sampathbandla.com">
+ <img align="center" height="500px" src="https://sampathbandla.com/wp-content/uploads/2020/09/Screenshot-32.png">
+</a>
 <h1>
    🧐 About
 </h1>
