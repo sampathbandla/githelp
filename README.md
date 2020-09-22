@@ -15,7 +15,7 @@
 <p>
 	GitHe!p is a application where you can interact with users where they can get support from you by asking questions and doubts about your project or usage of it. They can also make issues or bugs or feature request all by tags.
 </p>
-🤝🏻 Community
+<h1>🤝🏻 Community</h1>
 
 Stay up to date on the development of LogChimp you can star this repository, follow us on Twitter or reach out to the community with these helpful resources.
 
