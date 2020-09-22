@@ -25,6 +25,6 @@ Stay up to date on the development of GitHe!p you can star this repository, foll
 <h1>⛏️ Built Using</h1>
 Contributing to GitHe!p project is fairly easy.
 
-Express - Node.js web framework
-Mongodb - Backend database
-React.js - Front end
+Express - Node.js web framework<br>
+Mongodb - Backend database<br>
+React.js - Front end<br>
