@@ -1,17 +1,38 @@
 .index
 {
 	padding: 50px;
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+	@media screen and (max-width: 800px) {
+		width: 100%;
+		padding: 0;
+	}
 	.recentQuestions
 	{
-		width: 50%;
 		margin: 0 auto;
 		box-shadow: 0px 0px 6px 0px rgba(172, 172, 172, 0.729);
 		padding: 50px;
+		@media screen and (max-width: 800px) {
+			padding: 10px;
+			padding-top: 50px;
+		}
 		.ask
 		{
 			margin-left: auto;
-			display: block;
+			display: flex;
+			align-items: center;
+			font-weight: bold;
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			font-size: 30px;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.729);
 		}
+
 		.link
 		{
 			font-size: 13px;
@@ -19,19 +40,44 @@
 		}
 		.questions
 		{
+			.filter
+			{
+				display: flex;
+				margin: 15px;
+				align-items: center;
+				@media screen and (max-width: 800px) {
+					margin: 0;
+				}
+				p
+				{
+					padding: 5px 20px;
+					background-color: $gray;
+					border-radius: 20px;
+					color: white;
+					margin-left: 10px;
+					cursor: pointer;
+					font-size: 12px;
+					@media screen and (max-width: 800px) {
+						margin: 5px;
+					}
+				}
+			}
 			.question
 			{
 				display: flex;
 				padding: 20px;
 				box-shadow: 0px 0px 6px 0px rgba(172, 172, 172, 0.729);
 				margin-top: 20px;
+				@media screen and (max-width: 800px) {
+					padding: 0;
+				}
 				.left
 				{
 					display: flex;
 					flex-direction: column;
 					width: 50px;
 					border-right: solid 1px lightgray;
-					overflow: hidden;
+					// overflow: hidden;
 					justify-content: center;
 					align-items: center;
 					img
@@ -40,6 +86,7 @@
 						height: 30px;
 						object-fit: cover;
 						margin-bottom: 10px;
+						border-radius: 50%;
 					}
 				}
 				.center
@@ -47,14 +94,23 @@
 					display: flex;
 					padding: 0px 10px;
 					flex-direction: column;
+					@media screen and (max-width: 450px) {
+						width: 200px;
+					}
 					.questionText
 					{
 						font-weight: bold;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
 					}
 					.userDetails
 					{
 						font-size: 12px;
 						display: flex;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
 						.by
 						{
 							span
@@ -66,6 +122,20 @@
 						.at
 						{
 
+						}
+					}
+					.tags
+					{
+						.tag
+						{
+							display: flex;
+							align-items: center;
+							font-size: 12px;
+							width: fit-content;
+							padding: 5px 5px;
+							border-radius: 20px;
+							cursor: pointer;
+							font-size: 15px;
 						}
 					}
 

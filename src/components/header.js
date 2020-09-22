@@ -9,13 +9,10 @@ function Header() {
 							GitHe<span>!</span>p
 						</h1>
 					</div>
-					<input
-						type="text"
-						placeholder="Search for project in Github or Paste URL..."
-					/>
+					<input type="text" placeholder="Search ..." />
 				</div>
 				<div className="right">
-					<button className="getStrarted">Get Started!</button>
+					<button className="getStrarted">Register</button>
 				</div>
 			</div>
 		</div>
