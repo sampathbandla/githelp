@@ -9,7 +9,7 @@
 </p>
 <img align="center" height="500px" src="https://sampathbandla.com/wp-content/uploads/2020/09/Screenshot-32.png">
 
-<h1 align="center">
+<h1>
    🧐 About
 </h1>
 <p>
@@ -21,3 +21,9 @@ Stay up to date on the development of LogChimp you can star this repository, fol
 
 - Follow [@logchimp](https://twitter.com/Githehelp) on Twitter.
 - Join the official [LogChimp Discord](https://discord.gg/meMpUMM)
+<h1>⛏️ Built Using</h1>
+Contributing to GitHe!p project is fairly easy.
+
+Express - Node.js web framework
+Mongodb - Backend database
+React.js - Front end
