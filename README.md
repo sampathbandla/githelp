@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://sampathbandla.com/wp-content/uploads/2020/09/logoonly.svg" alt="LogChimp" height="72" />
+    <img src="https://sampathbandla.com/wp-content/uploads/2020/10/Screenshot-33.png" alt="GitHelp" height="72" />
 </p>
 <h1 align="center">
   GitHelp
